@@ -1,0 +1,68 @@
+{
+  "initial_points": 192,
+  "rounds": [
+    {
+      "n": 240,
+      "near_boundary": 0.7708333333333334
+    },
+    {
+      "n": 288,
+      "near_boundary": 0.8125
+    },
+    {
+      "n": 336,
+      "near_boundary": 0.8333333333333334
+    }
+  ],
+  "n_evaluated": 336,
+  "ok_evaluated": 151,
+  "p_ok_box": 0.4053955078125,
+  "length_scales": {
+    "PERIPHERAL_CONTRAST": 1.5558607898561763,
+    "FOCAL_CONTRAST": 1.0950375889153385,
+    "FRAME_NOISE": 0.34853739635038306,
+    "BACKGROUND_NOISE": 1.5174019393159026,
+    "BACKGROUND_BASELINE_READS": 6.537974827074931,
+    "TEMPERATURE": 1.9146975894071852
+  },
+  "total_order_importance": {
+    "PERIPHERAL_CONTRAST": 0.24339778592216169,
+    "FOCAL_CONTRAST": 1.113444015157734,
+    "FRAME_NOISE": 0.6597497146670409,
+    "BACKGROUND_NOISE": 0.1860912098911895,
+    "BACKGROUND_BASELINE_READS": 0.05937540549057408,
+    "TEMPERATURE": 0.07933960977573226
+  },
+  "bounds": {
+    "PERIPHERAL_CONTRAST": [
+      0.0,
+      0.8,
+      false
+    ],
+    "FOCAL_CONTRAST": [
+      0.2,
+      2.0,
+      false
+    ],
+    "FRAME_NOISE": [
+      0.0,
+      1.0,
+      false
+    ],
+    "BACKGROUND_NOISE": [
+      0.0,
+      2.0,
+      false
+    ],
+    "BACKGROUND_BASELINE_READS": [
+      0,
+      32,
+      false
+    ],
+    "TEMPERATURE": [
+      0.03,
+      2.0,
+      true
+    ]
+  }
+}

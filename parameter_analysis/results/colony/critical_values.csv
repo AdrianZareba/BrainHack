@@ -1,0 +1,10 @@
+param,default,range_lo,range_hi,ok_from,ok_to,min_rel_change_to_break,regime_below,regime_above
+CUE_STRENGTH,0.3,0.0,1.5,0.0625,,0.792,late_ior,range edge
+CUE_RETENTION,0.72,0.0,1.0,,0.9125,0.267,range edge,late_ior
+INITIAL_PHEROMONE,1.0,0.0,4.0,,,,range edge,range edge
+EVAPORATION,0.42,0.0,1.0,0.2542,,0.395,late_ior,range edge
+DEPOSIT,0.55,0.0,2.5,0.125,,0.773,late_ior,range edge
+CONSUMPTION,0.32,0.0,1.2,0.21,,0.344,late_ior,range edge
+PHEROMONE_EXPONENT,1.55,0.0,5.0,0.6458,3.3333,0.583,late_ior,late_ior
+TRAIL_FLOOR,0.12,0.0,1.5,,0.6875,4.729,range edge,late_ior
+EXPLORATION,0.08,0.0,1.0,,0.475,4.937,range edge,late_ior
